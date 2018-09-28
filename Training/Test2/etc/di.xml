@@ -1,0 +1,12 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Training\Test\MagentoU\Test">
+        <arguments>
+            <argument name="data" xsi:type="array">
+                <item name="test-array-item2"  xsi:type="string" >Test Array Item2!!!</item>
+                <item name="test-array-item3"  xsi:type="string" >Test Array Item3!!!</item>
+                <item name="test-array-item4"  xsi:type="string" >Test Array Item4!!!</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

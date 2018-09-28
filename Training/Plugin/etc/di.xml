@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+
+<config>
+    <type name="Magento\Catalog\Model\Product">
+        <plugin name="test_plugin_for_price" type="Training\Plugin\Plugin\Price" />
+    </type>
+    <type name="Magento\Theme\Block\Html\Footer">
+        <plugin name="test_plugin_for_copyright" type="Training\Plugin\Plugin\Copyright" />
+    </type>
+    <type name="Magento\Theme\Block\Html\Breadcrumbs">
+        <plugin name="test_plugin_for_crumb" type="Training\Plugin\Plugin\Crumb" />
+    </type>
+</config>
